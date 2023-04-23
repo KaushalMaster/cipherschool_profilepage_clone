@@ -17,6 +17,7 @@ import RestorationForm from "./pages/RestorationForm";
 import CreatorAcces from "./pages/CreatorAccess";
 import FeedbackPage from "./pages/FeedbackPage";
 import Tour from "./pages/Tour";
+import Contributions from "./components/Contributions";
 
 function App() {
   return (
@@ -34,6 +35,7 @@ function App() {
             <Route path="/creator-access" element={<CreatorAcces />} />
             <Route path="/feedback" element={<FeedbackPage />} />
             <Route path="/tour" element={<Tour />} />
+            <Route path="/contributions" element={<Contributions />} />
           </Routes>
         </Sidebar>
       </BrowserRouter>
